@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+
+    color: white;
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;            
+}
+
+button {
+    margin: 1em;
+    height: 3em;
+    width: 8em;
+    border: none;
+    color: white;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.botao-iniciar {
+    background-color: green;
+}
+
+.botao-pausar {
+    background-color: gray;
+}
+
+.botao-parar{
+    background-color: red;
+}
+
+
